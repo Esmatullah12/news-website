@@ -1,0 +1,51 @@
+
+.hero {
+  text-align: center;
+  margin: 50px 20px 100px 20px;
+}
+
+.hero h2 {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+.hero p {
+  margin: 20px auto;
+  max-width: 900px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hero input {
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: rgba(255, 255, 255, 0.24) 0 3px 8px;
+  border-radius: 10px;
+  min-width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.hero input:focus {
+  outline: none;
+}
+
+.loading-text {
+  text-align: center;
+}
+
+.news-articles {
+  justify-content: center;
+  border: 1px solid black;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 200px));
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.article-card {
+  text-decoration: none;
+  color: black;
+}
