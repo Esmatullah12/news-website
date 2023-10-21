@@ -2,7 +2,7 @@
 .hero {
   color: white;
   text-align: center;
-  padding: 0px 20px 20px 20px;
+  padding: 0 20px 20px 20px;
   background-color: #5c91f4;
 }
 
@@ -26,7 +26,7 @@
   border-radius: 10px;
   width: 80%;
   max-width: 500px;
-  background-color: white
+  background-color: white;
 }
 
 .hero input:focus {
@@ -44,9 +44,8 @@
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0px auto;
+  margin: 0 auto;
 }
-
 
 .article-card {
   position: relative;
@@ -54,14 +53,14 @@
   color: black;
 }
 
-.sub-title{
+.sub-title {
   color: #fff;
   margin: 5px 20px;
   font-weight: 600;
   font-size: 1.5rem;
 }
 
-.over-lay{
+.over-lay {
   position: absolute;
   top: 0;
   width: 100%;
@@ -69,6 +68,6 @@
   z-index: 1;
 }
 
-.over-lay:nth-child(even){
+.over-lay:nth-child(even) {
   background-color: rgba(77, 121, 204, 0.5);
 }
