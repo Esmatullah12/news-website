@@ -27,13 +27,11 @@ const Home = () => {
         <h2>News Articals</h2>
         <p>
           The Wall Street Journal recent articles from the past six months
-          are sorted chronologically, offering readers instant access to the
-          latest news and analyses. This efficient organization ensures
-          up-to-the-minute information, enabling readers to stay well-informed
-          with ease.
+          are sorted chronologically.
         </p>
         <input type="text" placeholder="Search news articles" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
       </div>
+      <div className="sub-title">The latest news appear first.</div>
       {news.loading && <div className="loading-text">Loading News...</div>}
       {!news.loading && news.error ? <div>{news.error}</div> : null}
       {!news.loading && news.news.length ? (
@@ -47,6 +45,7 @@ const Home = () => {
                 date={nNews.newsDate}
                 imageUrl={nNews.newsImg}
               />
+              <div className="over-lay" />
             </Link>
           ))}
         </div>

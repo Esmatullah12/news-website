@@ -1,13 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
+import { FaArrowLeft, FaGear, FaMicrophone } from 'react-icons/fa6';
 
 const Navbar = () => (
   <div className="navbar">
-    <Link className="logo" to="/">Fact Finder</Link>
+    <Link className="back" to="/">
+      <FaArrowLeft className="icon" />
+      <p>Back</p>
+    </Link>
+    <p className="nav-logo">Fact Finder</p>
     <ul className="navbar-menu">
-      <li><Link className="menu-link" to="/">Home</Link></li>
-      <li><Link className="menu-link" to="/newsDetails">News</Link></li>
+      <li><FaGear className="icon" /></li>
+      <li><FaMicrophone className="icon" /></li>
     </ul>
   </div>
 );

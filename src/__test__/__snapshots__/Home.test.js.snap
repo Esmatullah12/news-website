@@ -12,13 +12,18 @@ exports[`Test Home component it should render Home component correctly 1`] = `
         News Articals
       </h2>
       <p>
-        The Wall Street Journal recent articles from the past six months are sorted chronologically, offering readers instant access to the latest news and analyses. This efficient organization ensures up-to-the-minute information, enabling readers to stay well-informed with ease.
+        The Wall Street Journal recent articles from the past six months are sorted chronologically.
       </p>
       <input
         placeholder="Search news articles"
         type="text"
         value=""
       />
+    </div>
+    <div
+      class="sub-title"
+    >
+      The latest news appear first.
     </div>
     <div
       class="loading-text"

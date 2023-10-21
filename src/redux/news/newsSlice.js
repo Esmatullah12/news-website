@@ -30,7 +30,8 @@ const newsSlice = createSlice({
     builder.addCase(fetchUsers.fulfilled, (state, action) => {
       state.loading = false;
       state.news = action.payload.map((news) => ({
-        newsId: state.newsId + 1,
+        // eslint-disable-next-line no-plusplus
+        newsId: state.newsId++,
         newsTitle: news.title,
         newsDesc: news.content,
         newsImg: news.urlToImage,

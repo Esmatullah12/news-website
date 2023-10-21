@@ -1,7 +1,9 @@
 
 .hero {
+  color: white;
   text-align: center;
-  margin: 50px 20px 100px 20px;
+  padding: 0px 20px 20px 20px;
+  background-color: #5c91f4;
 }
 
 .hero h2 {
@@ -24,8 +26,7 @@
   border-radius: 10px;
   width: 80%;
   max-width: 500px;
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  background-color: white
 }
 
 .hero input:focus {
@@ -33,20 +34,41 @@
 }
 
 .loading-text {
+  margin: 20px;
   text-align: center;
   font-size: 1.2rem;
 }
 
 .news-articles {
   justify-content: center;
-  max-width: 90%;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 200px));
-  gap: 20px;
-  margin: 20px auto;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px auto;
 }
 
+
 .article-card {
+  position: relative;
   text-decoration: none;
   color: black;
+}
+
+.sub-title{
+  color: #fff;
+  margin: 5px 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.over-lay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.over-lay:nth-child(even){
+  background-color: rgba(77, 121, 204, 0.5);
 }

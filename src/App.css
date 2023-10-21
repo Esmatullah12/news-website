@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body::before {
@@ -14,12 +14,11 @@ body::before {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(163, 162, 162, 0.5);
   z-index: -1;
 }
 
 body {
-  background-image: url('assets/background-image1.jpg');
+  background-color: #4369b2;
   background-size: contain;
   background-size: cover;
   background-attachment: fixed;
