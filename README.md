@@ -76,7 +76,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-To see my portfolio click [here](https://news-website-f9vh.onrender.com)
+for live demo of the website click [here](https://news-website-f9vh.onrender.com)
+Video about the website [here](https://www.loom.com/share/ff1cbcfc695f4813a0a28255f5de6be0)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
