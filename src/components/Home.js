@@ -16,9 +16,8 @@ const Home = () => {
   useEffect(() => {
     const filteredNews = news.news.filter((aNews) => {
       const newsTitle = aNews.newsTitle ? aNews.newsTitle.toLowerCase() : '';
-      // const newsImage = aNews.newsnewsImg;
       const query = searchQuery.toLowerCase();
-      return newsTitle.includes(query) && !null;
+      return newsTitle.includes(query) && aNews.newsImg;
     });
     setFilterNews(filteredNews);
   }, [news.news, searchQuery]);
@@ -27,11 +26,13 @@ const Home = () => {
       <div className="hero">
         <h2>News Articals</h2>
         <p>
-          Discover recent Tesla articles from the past month, sorted by latest
-          updates. Stay informed about innovative technology, sustainable
-          energy, and groundbreaking news from the world of Tesla.
+          The Wall Street Journal recent articles from the past six months
+          are sorted chronologically, offering readers instant access to the
+          latest news and analyses. This efficient organization ensures
+          up-to-the-minute information, enabling readers to stay well-informed
+          with ease.
         </p>
-        <input type="text" placeholder="search news" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+        <input type="text" placeholder="Search news articles" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
       </div>
       {news.loading && <div className="loading-text">Loading News...</div>}
       {!news.loading && news.error ? <div>{news.error}</div> : null}

@@ -9,7 +9,7 @@ const initialState = {
 
 export const fetchUsers = createAsyncThunk('news/fetchNews', async () => {
   try {
-    const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=5e7fcfb975734a94a573c319de6bda48');
+    const response = await fetch('https://newsapi.org/v2/everything?domains=wsj.com&apiKey=5e7fcfb975734a94a573c319de6bda48');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }

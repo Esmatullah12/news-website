@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './NewsArticle.css';
 
-const truncateTitle = (title) => {
-  const words = title.split(' ');
-  if (words.length > 14) {
-    return `${words.slice(0, 5).join(' ')}...`;
-  }
-  return title;
-};
+// const truncateTitle = (title) => {
+//   const words = title.split(' ');
+//   if (words.length > 14) {
+//     return `${words.slice(0, 5).join(' ')}...`;
+//   }
+//   return title;
+// };
 
 const NewsArticle = ({
   date, title, imageUrl, newsId,
@@ -30,7 +30,7 @@ const NewsArticle = ({
           {month}
         </p>
         <p>{weekday}</p>
-        <p className="news-title">{truncateTitle(title)}</p>
+        <p className="news-title">{title}</p>
         <p className="read-more">Read more...</p>
       </div>
     </div>

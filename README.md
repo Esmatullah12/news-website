@@ -1,70 +1,167 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3><b>News Website</b></h3>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
+# 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# 📖 [Book Store] <a name="about-project"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> "The news website sources its content from an API, ensuring real-time and up-to-date news coverage. By leveraging this data source, it delivers accurate and timely news articles, providing users with reliable information on current events from various sources.
 
-### `npm run build`
+- News Article
+- News original Source
+- Timely news articles
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run eject`
+### Tech Stack <a name="tech-stack"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> This project was built using the following technologies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://html.com/" target="_blank">HTML</a></li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/css" target="_blank">CSSs</a></li>
+  </ul>
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<details>
+  <summary>React</summary>
+  <ul>
+    <li><a href="https://react.dev/" target="_blank">React</a></li>
+  </ul>
+</details>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Key Features <a name="key-features"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- News Article
+- News original Source
+- Timely news articles
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Analyzing the Bundle Size
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- html, css, React.
+- Git installation
+- A text editor 
+- Web browser to view output
+- Code editor
 
-### Making a Progressive Web App
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Clone this repository or download the Zip folder:
 
-### Advanced Configuration
+```
+git clone https://github.com/Esmatullah12/news-website.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**``you@your-Pc-name:~$ cd book-store-react``**
 
-### Deployment
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- After Cloning this repo to your local machine
+- run npm start
 
-### `npm run build` fails to minify
+### Run Tests
+To track linter errors locally follow these steps:  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Download all the dependencies run:
+```
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+Track JavaScript linter errors run:
+```
+npx eslint "**/*.{js,jsx}"
+```
+npm install --save-dev create-react-app .
+```
+npm start .
+```
+
+
+
+
+## 👥 Authors <a name="authors"></a>
+
+> 
+
+👤 **Esmatullah Qadeemi**
+
+- GitHub: [@githubhandle](https://github.com/Esmatullah12)
+- Twitter: [@twitterhandle](https://twitter.com/Esmatullah173)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/esmatullah-qadeemi-b9951821b/)
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+ - adding authentication to the News website
+ - Adding category for the news Articles
+ - improving styling of the UI
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Esmatullah12/news-website/issues).
+
+## ⭐️ Show your support
+
+Express your support by giving a star to this repository! Your gesture is greatly appreciated.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏Acknowledgments
+
+I would like to thank Microverse for creating such wonderful opportunity for those who want to be software developer.
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test NewsArticle component it should render NewsArticle component correctly 1`] = `
+<div>
+  <div
+    class="newsArticle"
+  >
+    <img
+      alt="News Article"
+      class="new-card-img"
+    />
+    <div
+      class="news-info"
+    >
+      <p
+        class="news-date"
+      />
+      <p>
+        Invalid Date
+      </p>
+      <p
+        class="news-title"
+      />
+      <p
+        class="read-more"
+      >
+        Read more...
+      </p>
+    </div>
+  </div>
+</div>
+`;
