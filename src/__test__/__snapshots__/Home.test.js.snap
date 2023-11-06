@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Home component it should render Home component correctly 1`] = `
+<div>
+  <div
+    class="home-page"
+  >
+    <div
+      class="hero"
+    >
+      <h2>
+        News Articals
+      </h2>
+      <p>
+        The Wall Street Journal recent articles from the past six months are sorted chronologically.
+      </p>
+      <input
+        placeholder="Search news articles"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="sub-title"
+    >
+      The latest news appear first.
+    </div>
+    <div
+      class="loading-text"
+    >
+      Loading News...
+    </div>
+  </div>
+</div>
+`;

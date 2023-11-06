@@ -1,0 +1,67 @@
+.newsArticle {
+  padding: 10px;
+  background-color: red;
+  position: relative;
+  color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+}
+
+.newsArticle:hover {
+  transition: transform 0.5s;
+}
+
+.new-card-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid black;
+}
+
+.news-info {
+  height: 230px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.news-title {
+  position: absolute;
+  top: 80px;
+  z-index: 2;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  max-width: 80%;
+}
+
+.news-weekday {
+  position: absolute;
+  z-index: 2;
+  top: 55px;
+}
+
+.news-date {
+  position: absolute;
+  z-index: 2;
+  font-size: 2rem;
+  color: white;
+}
+
+.over-lay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.over-lay:nth-child(even) {
+  background-color: rgba(77, 121, 204, 0.7);
+}
+
+.card-icon {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.8rem;
+  z-index: 2;
+}
